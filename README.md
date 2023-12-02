@@ -25,7 +25,14 @@ Tarea 2: procesamiento paralelo
 
 `make`
 
-`./tarea2 foto.jpg foto_gris.jpg`, donde foto.jpg es la imagen original y foto_gris.jpg es la que se generará
+Para el programa secuencial:
+
+`./ProgramaSecuencial FotoColor.jpg FotoGris.jpg`, donde FotoColor.jpg es la imagen original y FotoGris.jpg es la que se generará
 
 Para las implementaciones paralelas:
-`./tarea2 foto.jpg foto_gris.jpg 4`, donde 4 es el numero de hilos a ejecutar
+
+foto.jpg es la original y foto_gris.jpg es la que se generará
+
+`./paralela-thread foto.jpg foto_gris.jpg 4`, donde `4` es el numero de hilos a ejecutar
+
+`./paralela-api foto.jpg foto_gris.jpg 4`, donde `4` es el numero de hilos a ejecutar
