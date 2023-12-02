@@ -1,9 +1,9 @@
 # tarea2-ssoo
 Tarea 2: procesamiento paralelo
 
-## Para la ejecución del programa, ejecutar los siguientes comandos:
+# Para la ejecución del programa, ejecutar los siguientes comandos:
 
-# Instalación de paquetes (Linux Ubuntu/Debian):
+## Instalación de paquetes (Linux Ubuntu/Debian):
 
 `sudo apt update`
 
@@ -13,13 +13,13 @@ Tarea 2: procesamiento paralelo
 
 `sudo apt install cmake`
 
-# Creación de carpetas y ubicación:
+## Creación de carpetas y ubicación:
 
-`git clone `
+`git clone https://github.com/JavoPa/tarea2-ssoo.git`
 
 `cd tarea2-ssoo/ProgramaSecuencial` o `cd tarea2-ssoo/paralela-thread` o `cd tarea2-ssoo/paralela-api`, dependiendo de la que quieras utilizar
 
-# Compilación y ejecución:
+## Compilación y ejecución:
 
 `cmake .`
 
