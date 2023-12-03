@@ -44,3 +44,23 @@ o `cd tarea2-ssoo/paralela-api` para el programa paralelo con la api OpenMP
 `./paralela-api foto.jpg foto_gris.jpg 4`, donde `4` es el numero de hilos a ejecutar
 
 Donde foto.jpg es la original y foto_gris.jpg es la que se generará.
+
+----
+
+# Capturas
+
+## Foto original:
+
+![img.jpg](foto.jpg)
+
+## Programa Secuencial:
+
+![img.png](programa-secuencial.png)
+
+## Implementación Paralela Threads:
+
+![img.png](paralela-thread.png)
+
+## Implentación Paralela con API OpenMP:
+
+![img.png](paralela-api.png)
