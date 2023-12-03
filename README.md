@@ -17,22 +17,30 @@ Tarea 2: procesamiento paralelo
 
 `git clone https://github.com/JavoPa/tarea2-ssoo.git`
 
-`cd tarea2-ssoo/ProgramaSecuencial` o `cd tarea2-ssoo/paralela-thread` o `cd tarea2-ssoo/paralela-api`, dependiendo de la que quieras utilizar
+**Ubicarse en la carpeta de la implementación que quieras utilizar:**
+
+`cd tarea2-ssoo/ProgramaSecuencial` para el programa secuencial,
+
+o `cd tarea2-ssoo/paralela-thread` para el programa paralelo con threads
+
+o `cd tarea2-ssoo/paralela-api` para el programa paralelo con la api OpenMP
 
 ## Compilación y ejecución:
 
-`cmake .`
+**Estando ubicado en la carpeta del programa que quieras probar, ejecuta los siguientes comandos:**
 
-`make`
+`cmake .` para empaquetar el codigo CMakeLists
 
-Para el programa secuencial:
+`make` para compilar el programa
+
+**Para ejecutar el programa secuencial:**
 
 `./ProgramaSecuencial FotoColor.jpg FotoGris.jpg`, donde FotoColor.jpg es la imagen original y FotoGris.jpg es la que se generará
 
-Para las implementaciones paralelas:
-
-foto.jpg es la original y foto_gris.jpg es la que se generará
+**Para ejecutar las implementaciones paralelas:**
 
 `./paralela-thread foto.jpg foto_gris.jpg 4`, donde `4` es el numero de hilos a ejecutar
 
 `./paralela-api foto.jpg foto_gris.jpg 4`, donde `4` es el numero de hilos a ejecutar
+
+Donde foto.jpg es la original y foto_gris.jpg es la que se generará.
